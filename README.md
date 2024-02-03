@@ -35,17 +35,17 @@
 :small_orange_diamond: Идентификатор филиала, внешний ключ, integer  
 2. Проекты  
 :small_orange_diamond: Идентификатор, первичный ключ, serial  
-:small_orange_diamond: Название проекта, varchar(50), уникальное  
+:small_orange_diamond: Название проекта, varchar(50), UNIQUE
 3. Должности  
 :small_orange_diamond: Идентификатор, первичный ключ, serial  
-:small_orange_diamond: Название должности, varchar(50), уникальное  
+:small_orange_diamond: Название должности, varchar(50), UNIQUE 
 4. Структурное подразделение  
 :small_orange_diamond: Идентификатор, первичный ключ, serial  
-:small_orange_diamond: Название подразделения, varchar(50), уникальное  
+:small_orange_diamond: Название подразделения, varchar(50), UNIQUE  
 :small_orange_diamond: Индентификатор типа подразделения, внешний ключ, integer  
 5. Тип подразделения  
 :small_orange_diamond: Идентификатор, первичный ключ, serial  
-:small_orange_diamond: Название типа подразделения, varchar(50), уникальное  
+:small_orange_diamond: Название типа подразделения, varchar(50), UNIQUE 
 6. Филиал  
 :small_orange_diamond: Идентификатор, первичный ключ, serial  
 :small_orange_diamond: Адрес филиала, varchar(50)  
