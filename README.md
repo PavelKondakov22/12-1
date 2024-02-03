@@ -22,14 +22,14 @@
 - ...
 - идентификатор структурного подразделения, внешний ключ, integer).
 
-### **Ответ:**
-# 1. Сотрудники
-:black_circle: Идентификатор, первичный ключ, serial  
-:black_circle: Фамилия, varchar(50)  
-:black_circle: Имя, varchar(50)  
-:black_circle: Отчество, varchar(50)  
-:black_circle: Оклад, float(2)  
-:black_circle: Дата найма, date  
-:black_circle: Идентификатор структурного подразделения, внешний ключ, integer  
-:black_circle: Идентификатор должности, внешний ключ, integer  
-:black_circle: Идентификатор филиала, внешний ключ, integer  
+### **Ответ:**  
+ 1. Сотрудники  
+:white_circle: Идентификатор, первичный ключ, serial  
+:white_circle: Фамилия, varchar(50)  
+:white_circle: Имя, varchar(50)  
+:white_circle: Отчество, varchar(50)  
+:white_circle: Оклад, float(2)  
+:white_circle: Дата найма, date  
+:white_circle: Идентификатор структурного подразделения, внешний ключ, integer  
+:white_circle: Идентификатор должности, внешний ключ, integer  
+:white_circle: Идентификатор филиала, внешний ключ, integer  
